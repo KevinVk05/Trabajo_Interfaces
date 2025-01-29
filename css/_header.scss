@@ -1,0 +1,32 @@
+$colorPrincipal: #8BBBA8;
+
+header {
+    background-color: $colorPrincipal;
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center; 
+}
+
+#logo {
+    img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.container {
+    text-align: center;
+    font-size: 30px;
+    flex-grow: 3; /* Hace que el contenedor crezca para tomar el espacio restante */
+}
+
+#usuario {
+    img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%; 
+    }
+}

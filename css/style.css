@@ -1,0 +1,32 @@
+header {
+  background-color: #8BBBA8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#logo img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+  font-size: 30px;
+  flex-grow: 3; /* Hace que el contenedor crezca para tomar el espacio restante */
+}
+
+#usuario img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #092635;
+}/*# sourceMappingURL=style.css.map */

@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
-    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header><img href=""><h1>JACIN AULA</h1> <img href=""></header>
-    <div id="login"></div>
+    <header>
+        <div id="logo">
+            <img src="../imagenes/Logo 1.jpg">
+        </div>
+        <div class="container">
+            <h1>JACIN AULA</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="login-container">
+            <h2>Iniciar Sesión</h2>
+            <form action="#" method="POST">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
     <footer id="idFooter">
         <div>
             <p id="copy">&copy; 2024 Todos los derechos reservados.</p>
