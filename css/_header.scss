@@ -8,59 +8,39 @@ header {
     align-items: center;
 }
 
-#logo {
-    img {
-        width: 140px;
-        height: 140px;
-        object-fit: cover;
-        border-radius: 50%;
-    }
-}
 
 .container {
     text-align: center;
     font-size: 30px;
     flex-grow: 3;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    text-align: center;
+    font-family: 'Irish Grover';
+    letter-spacing: 10px;
+    height: 120px;
+    padding: 10px;
     /* Hace que el contenedor crezca para tomar el espacio restante */
 }
 
 #usuario {
     img {
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         border-radius: 50%;
-        text-align: center;
-        font-family: 'Irish Grover';
-        letter-spacing: 10px;
-        height: 120px;
-        padding: 10px;
-
-        .container {
-            text-align: center;
-            font-size: 30px;
-            flex-grow: 3;
-            /* Hace que el contenedor crezca para tomar el espacio restante */
-        }
-
-        #usuario {
-            img {
-                width: 40px;
-                height: 40px;
-                object-fit: cover;
-                border-radius: 50%;
-            }
-        }
     }
+}
 
-    img {
-        width: 233px;
-        height: 216px;
-        object-fit: cover;
-        border-radius: 108px;
-        position: relative;
-        z-index: 1;
-        bottom: 140px;
+img {
+    width: 233px;
+    height: 216px;
+    object-fit: cover;
+    border-radius: 108px;
+    position: relative;
+    z-index: 1;
+    bottom: 140px;
 
-    }
 }

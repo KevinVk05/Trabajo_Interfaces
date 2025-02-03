@@ -20,22 +20,10 @@ header {
   align-items: center;
 }
 
-#logo img {
-  width: 140px;
-  height: 140px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 50%;
-}
-
 .container {
   text-align: center;
   font-size: 30px;
   flex-grow: 3;
-  /* Hace que el contenedor crezca para tomar el espacio restante */
-}
-
-#usuario img {
   width: 80px;
   height: 80px;
   -o-object-fit: cover;
@@ -46,21 +34,18 @@ header {
   letter-spacing: 10px;
   height: 120px;
   padding: 10px;
-}
-#usuario img .container {
-  text-align: center;
-  font-size: 30px;
-  flex-grow: 3;
   /* Hace que el contenedor crezca para tomar el espacio restante */
 }
-#usuario img #usuario img {
+
+#usuario img {
   width: 40px;
   height: 40px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
 }
-#usuario img {
+
+img {
   width: 233px;
   height: 216px;
   -o-object-fit: cover;
