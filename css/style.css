@@ -1,3 +1,18 @@
+@import url("https://fonts.cdnfonts.com/css/irish-grover");
+footer {
+  position: relative;
+  z-index: 1;
+  top: 65px;
+  background-color: #8BBBA8;
+  font-size: 20px;
+  color: black;
+}
+footer a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
 header {
   background-color: #8BBBA8;
   display: flex;
@@ -16,7 +31,8 @@ header {
 .container {
   text-align: center;
   font-size: 30px;
-  flex-grow: 3; /* Hace que el contenedor crezca para tomar el espacio restante */
+  flex-grow: 3;
+  /* Hace que el contenedor crezca para tomar el espacio restante */
 }
 
 #usuario img {
@@ -25,8 +41,72 @@ header {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
+  text-align: center;
+  font-family: "Irish Grover";
+  letter-spacing: 10px;
+  height: 120px;
+  padding: 10px;
+}
+#usuario img .container {
+  text-align: center;
+  font-size: 30px;
+  flex-grow: 3;
+  /* Hace que el contenedor crezca para tomar el espacio restante */
+}
+#usuario img #usuario img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+#usuario img {
+  width: 233px;
+  height: 216px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 108px;
+  position: relative;
+  z-index: 1;
+  bottom: 140px;
+}
+
+* {
+  border-radius: 15px;
 }
 
 body {
   background-color: #092635;
+}
+
+main {
+  position: relative;
+  z-index: 2;
+  bottom: 100px;
+  background-color: #9EC8B9;
+  width: 55%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+}
+main .login-container {
+  padding-top: 50px;
+}
+main input {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  height: 74px;
+  width: 75%;
+  text-align: center;
+  font-size: 17px;
+}
+main button {
+  background-color: #1B4242;
+  margin-top: 20px;
+  color: white;
+  height: 73px;
+  width: 230px;
+  font-size: 30px;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */

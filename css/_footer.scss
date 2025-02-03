@@ -1,0 +1,14 @@
+$fondo: #8BBBA8;
+footer{
+    position: relative;
+    z-index: 1;
+    top: 65px;
+    background-color: $fondo;
+    font-size: 20px;
+    color:black;
+    a{
+        color: #ecf0f1; 
+        text-decoration: none;
+         margin: 0 5px;
+    }
+}
