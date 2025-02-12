@@ -64,7 +64,7 @@ body {
   background-color: #092635;
 }
 
-main {
+#inicioSesion {
   position: relative;
   z-index: 2;
   bottom: 100px;
@@ -74,10 +74,10 @@ main {
   margin: auto;
   text-align: center;
 }
-main .login-container {
+#inicioSesion .login-container {
   padding-top: 50px;
 }
-main input {
+#inicioSesion input {
   display: block;
   margin: auto;
   margin-bottom: 25px;
@@ -86,7 +86,7 @@ main input {
   text-align: center;
   font-size: 17px;
 }
-main button {
+#inicioSesion button {
   background-color: #1B4242;
   margin-top: 20px;
   color: white;
@@ -94,4 +94,17 @@ main button {
   width: 230px;
   font-size: 30px;
   border-radius: 30px;
+}
+
+#cursos #cajaExterior {
+  height: 500px;
+  margin: auto;
+  width: 70%;
+  background-color: #9EC8B9;
+}
+#cursos #cajaExterior #cajaInterior {
+  margin: auto;
+  height: 70%;
+  width: 70%;
+  background-color: #E4E4E4;
 }/*# sourceMappingURL=style.css.map */

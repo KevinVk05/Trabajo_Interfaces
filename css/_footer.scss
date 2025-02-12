@@ -1,9 +1,9 @@
-$fondo: #8BBBA8;
+@import "variables";
 footer{
     position: relative;
     z-index: 1;
     top: 65px;
-    background-color: $fondo;
+    background-color: $colorFooter;
     font-size: 20px;
     color:black;
     a{
