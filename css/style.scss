@@ -67,25 +67,21 @@ body {
             flex-wrap: wrap; // Usamos flexbox para controlar mejor los elementos
 
             .asignatura {
-                display: flex; // Aseguramos que las celdas estén alineadas
-                align-items: center; // Centra las celdas verticalmente
                 width: 100%;
                 margin-top: 20px;
                 background-color: $fondo-central;
+                #foto1{
+                    background-image: url("../imagenes/bases.jpeg");
+                    height: 300px;
 
+                }
                 .foto {
-                    .fotoCurso {
-                        top: 25px;
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 15px;
-                        object-fit: cover;
-                    }
+                    
+                    
                 }
 
                 .informacion {
                     word-wrap: break-word;
-                    flex: 0 0 30%; // Fija el ancho de la celda
                     padding: 30px;
                 }
             }
