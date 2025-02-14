@@ -3,13 +3,17 @@
 @import "_variables.scss";
 
 
-*{
-    border-radius: 15px;
+* {
+    border-radius: 15px; // Bordes redondeados globalmente
 }
-body{
-    background-color: $colorFondo;
+
+body {
+    background-color: $colorFondo; // Fondo general de la página
+    font-family: sans-serif; // Fuente general
 }
-#inicioSesion{
+
+// Estilo para el área de inicio de sesión
+#inicioSesion {
     position: relative;
     z-index: 2;
     bottom: 100px;
@@ -18,19 +22,24 @@ body{
     height: 400px;
     margin: auto;
     text-align: center;
-    .login-container{
+    padding: 50px 0; // Un poco de relleno arriba y abajo
+
+    .login-container {
         padding-top: 50px;
     }
-    input{
+
+    input {
         display: block;
         margin: auto;
         margin-bottom: 25px;
         height: 74px;
         width: 75%;
-         text-align: center;
-         font-size: 17px;
+        text-align: center;
+        font-size: 17px;
+        border-radius: 30px;
     }
-    button{
+
+    button {
         background-color: $boton;
         margin-top: 20px;
         color: white;
@@ -39,42 +48,45 @@ body{
         font-size: 30px;
         border-radius: 30px;
     }
-    
 }
 
-#cursos{
-    #cajaExterior{
-        height: 450px;
+#cursos {
+    #cajaExterior {
+        height: 1000px;
         margin: auto;
-        width: 70%;
-        background-color: #9EC8B9;
+        width: 100%;
+        background-color: $fondo-central;
         padding: 50px;
-        #cajaInterior{
+
+        #cajaInterior {
             margin: auto;
             height: 100%;
-            background-color: #E4E4E4;
+            background-color: $fondoDentroCajas;
             padding: 20px;
-            #asig1, #asig2{
-                margin: auto;
-                display: grid;
-                grid-template-columns: 5% 70% 3% 20 2%;
-                grid-template-rows: 100%;
-                height: 200px;
+            display: flex;
+            flex-wrap: wrap; // Usamos flexbox para controlar mejor los elementos
+
+            .asignatura {
+                display: flex; // Aseguramos que las celdas estén alineadas
+                align-items: center; // Centra las celdas verticalmente
+                width: 100%;
                 margin-top: 20px;
-                background-color: #9EC8B9;
-                #foto{
-                    grid-column: 2/3;
-                    .fotoCurso{
+                background-color: $fondo-central;
+
+                .foto {
+                    .fotoCurso {
+                        top: 25px;
                         width: 100%;
                         height: 100%;
                         border-radius: 15px;
-                        top: 0px;
-                        bottom: 0px;
+                        object-fit: cover;
                     }
                 }
-                #informacion{
-                    overflow-wrap: break-word;
-                    grid-column: 4/5;
+
+                .informacion {
+                    word-wrap: break-word;
+                    flex: 0 0 30%; // Fija el ancho de la celda
+                    padding: 30px;
                 }
             }
         }

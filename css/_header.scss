@@ -1,36 +1,33 @@
 @import url('https://fonts.cdnfonts.com/css/irish-grover');
 
+@import 'variables';
 
 header {
     background-color: $colorHeader;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-}
+    padding: 20px 0;
 
-
-.container {
-    text-align: center;
-    font-size: 30px;
-    flex-grow: 3;
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 50%;
-    text-align: center;
-    font-family: 'Irish Grover';
-    letter-spacing: 10px;
-    height: 120px;
-    padding: 10px;
-    /* Hace que el contenedor crezca para tomar el espacio restante */
-}
-
-#usuario {
-    img {
-        width: 40px;
-        height: 40px;
+    #NombreAula {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Irish Grover', sans-serif;
+        letter-spacing: 10px;
+        width: 120px;
+        height: 120px;
         object-fit: cover;
         border-radius: 50%;
+        padding: 10px;
+    }
+
+    #usuario {
+        img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
     }
 }
 
@@ -38,9 +35,8 @@ img {
     width: 233px;
     height: 216px;
     object-fit: cover;
-    border-radius: 108px;
+    border-radius: 50%;
     position: relative;
     z-index: 1;
-    bottom: 140px;
-
+    bottom: 115px;
 }

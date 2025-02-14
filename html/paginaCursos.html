@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
     <link href="../css/style.css" rel="stylesheet">
+    <!-- Enlazar el CSS de Foundation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+
+    <!-- Enlazar el archivo JS de Foundation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -13,29 +21,50 @@
         </div>
     </header>
     <img src="../imagenes/Logo 1.jpg">
-     <!--#092635-->
+
+    <!-- Main Content (Cursos) -->
     <main id="cursos">
-        <!--#9EC8B9-->
-        <div id="cajaExterior">
-            <!--#E4E4E4-->
-            <div id="cajaInterior">
-                
-                <div id="asig1">
-                    <div id="foto"><img src="../imagenes/bases.jpeg" class="fotoCurso"></div>
-                    <div id="informacion">
-                        <h2>Base de Jacintos</h2>
-                        <p>1º DJW</p>
-                        <p> Jacinto Villarroel</p>
+        <div id="cajaExterior" class="grid-container">
+            <div id="cajaInterior" class="grid-x grid-padding-x">
+
+                <div class="asignatura cell medium-12">
+                    <div class="grid-x grid-padding-x align-middle">
+                        <div class="cell medium-8 small-12">
+                            <div class="foto">
+                                <img src="../imagenes/bases.jpeg" class="fotoCurso" alt="Despliegue de Jacintos Web">
+                            </div>
+                        </div>
+                        <div class="cell medium-4 small-12">
+                            <div class="informacion">
+                                <h2>Base de Jacintos</h2>
+                                <p>1º DJW</p>
+                                <p>Jacinto Villaroel</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="asig2">
-                    <div id="foto"><img src="../imagenes/despliegues.jpg" class="fotoCurso"></div>
-                    <div id="informacion">
-                        <h2>Despliegue de Jacintos Web</h2>
-                        <p>2º DJW</p>
-                        <p> Jacinto Puche</p>
+
+
+                <div class="asignatura cell large-12 medium-12s small-12">
+                    <div class="grid-x align-middle">
+                        <div class="cell medium-9">
+                            <div class="foto">
+                                <img src="../imagenes/despliegues.jpg" class="fotoCurso"
+                                    alt="Despliegue de Jacintos Web">
+                            </div>
+                        </div>
+                        <div class="cell medium-3">
+                            <div class="informacion">
+                                <h2>Despliegue de Jacintos Web</h2>
+                                <p>2º DJW</p>
+                                <p>Jacinto Puche</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
+
             </div>
         </div>
     </main>
@@ -43,26 +72,18 @@
         <div>
             <p id="copy">&copy; 2024 Todos los derechos reservados.</p>
             <nav>
-                <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Política de
-                    Privacidad</a>
-                |
-                <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Términos y
-                    Condiciones</a>
-                |
-                <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Contacto</a>
+                <a href="#">Política de Privacidad</a> |
+                <a href="#">Términos y Condiciones</a> |
+                <a href="#">Contacto</a>
             </nav>
         </div>
         <div style="margin-top: 10px;">
-            <a href="https://facebook.com" target="_blank"
-                style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Facebook</a>
-            |
-            <a href="https://twitter.com" target="_blank"
-                style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Twitter</a>
-            |
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
             <a href="https://www.instagram.com" target="_blank"
                 style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Instagram</a>
-                
         </div>
     </footer>
 </body>
+
 </html>

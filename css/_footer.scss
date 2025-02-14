@@ -1,14 +1,27 @@
-@import "variables";
-footer{
+@import 'variables';
+
+footer {
     position: relative;
     z-index: 1;
     top: 65px;
     background-color: $colorFooter;
     font-size: 20px;
-    color:black;
-    a{
-        color: #ecf0f1; 
+    color: black;
+    padding: 20px 0; // Relleno arriba y abajo para el footer
+    .grid-container {
+        text-align: center; // Centra el contenido dentro del footer
+    }
+
+    a {
+        color: #ecf0f1;
         text-decoration: none;
-         margin: 0 5px;
+        margin: 0 5px;
+    }
+
+    // Estilo de los enlaces en el footer para hacerlo más accesible
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 }
