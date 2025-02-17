@@ -1,4 +1,7 @@
 @import url("https://fonts.cdnfonts.com/css/irish-grover");
+@import url("https://fonts.cdnfonts.com/css/irish-grover");
+@import url("https://fonts.cdnfonts.com/css/irish-grover");
+@import url("https://fonts.cdnfonts.com/css/irish-grover");
 footer {
   position: relative;
   z-index: 1;
@@ -66,7 +69,6 @@ img {
 
 body {
   background-color: #092635;
-  font-family: sans-serif;
 }
 
 #inicioSesion {
@@ -113,21 +115,106 @@ body {
 #cursos #cajaExterior #cajaInterior {
   margin: auto;
   height: 100%;
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
 }
 #cursos #cajaExterior #cajaInterior .asignatura {
   width: 100%;
   margin-top: 20px;
   background-color: #9EC8B9;
 }
+#cursos #cajaExterior #cajaInterior .asignatura #foto1,
+#cursos #cajaExterior #cajaInterior .asignatura #foto2 {
+  margin-top: 50px;
+  height: 300px;
+  background-size: cover;
+}
 #cursos #cajaExterior #cajaInterior .asignatura #foto1 {
   background-image: url("../imagenes/bases.jpeg");
-  height: 300px;
+}
+#cursos #cajaExterior #cajaInterior .asignatura #foto2 {
+  background-image: url("../imagenes/despliegues.jpg");
 }
 #cursos #cajaExterior #cajaInterior .asignatura .informacion {
   word-wrap: break-word;
   padding: 30px;
+}
+#cursos #cajaExterior #cajaInterior .asignatura .informacion a h2 {
+  color: black;
+}
+#cursos #interiorCursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cursos #interiorCursos #cajaExterior {
+  padding: 20px;
+  background-color: #9EC8B9;
+  width: 85%;
+  height: 400px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cursos #interiorCursos #cajaExterior #cajaInterior {
+  padding: 20px;
+  width: 90%;
+  height: 95%;
+  border-radius: 50px;
+  background-color: #e4e4e4;
+  align-items: center;
+  justify-content: center;
+}
+#cursos #interiorCursos #cajaExterior #cajaInterior h2 {
+  font-family: "Inknut Antikia", serif;
+}
+#cursos #informacionUsuario {
+  /*display: flex;
+  //justify-content: center;
+  //align-items: center;*/
+}
+#cursos #informacionUsuario #cajaExterior {
+  /*padding: 20px;*/
+  background-color: #9EC8B9;
+  width: 85%;
+  height: 400px;
+  border-radius: 50px;
+  /* //display: flex;
+  // justify-content: center;
+  // align-items: center;*/
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior {
+  /* // padding: 20px;*/
+  width: 90%;
+  height: 95%;
+  border-radius: 50px;
+  background-color: #e4e4e4;
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior #fotoPerfil {
+  /* // display: inline-block;
+  // margin-left: 50px;
+  // margin-top: 25px;*/
+  background-color: black;
+  width: 75px;
+  height: 75px;
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior #info {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior #info h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior #info ul li {
+  color: blue;
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior #cerrarSesion {
+  text-align: right;
+  margin-right: 50px;
+}
+#cursos #informacionUsuario #cajaExterior #cajaInterior #cerrarSesion p a {
+  color: red;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

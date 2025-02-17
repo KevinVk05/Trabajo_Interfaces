@@ -1,90 +1,15 @@
+@import "_variables.scss";
 @import "_footer.scss";
 @import "_header.scss";
-@import "_variables.scss";
+@im
+
+
 
 
 * {
-    border-radius: 15px; // Bordes redondeados globalmente
+    border-radius: 15px;
 }
 
 body {
-    background-color: $colorFondo; // Fondo general de la página
-    font-family: sans-serif; // Fuente general
-}
-
-// Estilo para el área de inicio de sesión
-#inicioSesion {
-    position: relative;
-    z-index: 2;
-    bottom: 100px;
-    background-color: $fondo-central;
-    width: 55%;
-    height: 400px;
-    margin: auto;
-    text-align: center;
-    padding: 50px 0; // Un poco de relleno arriba y abajo
-
-    .login-container {
-        padding-top: 50px;
-    }
-
-    input {
-        display: block;
-        margin: auto;
-        margin-bottom: 25px;
-        height: 74px;
-        width: 75%;
-        text-align: center;
-        font-size: 17px;
-        border-radius: 30px;
-    }
-
-    button {
-        background-color: $boton;
-        margin-top: 20px;
-        color: white;
-        height: 73px;
-        width: 230px;
-        font-size: 30px;
-        border-radius: 30px;
-    }
-}
-
-#cursos {
-    #cajaExterior {
-        height: 1000px;
-        margin: auto;
-        width: 100%;
-        background-color: $fondo-central;
-        padding: 50px;
-
-        #cajaInterior {
-            margin: auto;
-            height: 100%;
-            background-color: $fondoDentroCajas;
-            padding: 20px;
-            display: flex;
-            flex-wrap: wrap; // Usamos flexbox para controlar mejor los elementos
-
-            .asignatura {
-                width: 100%;
-                margin-top: 20px;
-                background-color: $fondo-central;
-                #foto1{
-                    background-image: url("../imagenes/bases.jpeg");
-                    height: 300px;
-
-                }
-                .foto {
-                    
-                    
-                }
-
-                .informacion {
-                    word-wrap: break-word;
-                    padding: 30px;
-                }
-            }
-        }
-    }
+    background-color: $colorFondo;
 }

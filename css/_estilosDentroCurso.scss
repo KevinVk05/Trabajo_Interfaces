@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;700');
+
+*{
+    border-radius: 15px;
+}
+body{
+    background-color: $colorFondo;
+}
+#interiorCursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #cajaExterior{
+        padding: 20px;
+        
+        background-color: $fondo-central;
+        width: 85%;
+        height: 400px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #cajaInterior{
+            padding: 20px;
+            width: 90%;
+            height: 95%;
+            border-radius: 50px;
+            background-color:$colorCajaInterior ;
+            align-items: center;
+            justify-content: center;
+            h2{
+                font-family:'Inknut Antikia',serif;
+            }
+        }
+    }
+}
