@@ -2,7 +2,7 @@
 
 #cursos {
     #cajaExterior {
-        height: 450px;
+        height: auto;
         margin: auto;
         width: 70%;
         background-color: $fondo-central;
@@ -12,19 +12,21 @@
             margin: auto;
             height: 100%;
             background-color: $fondoDentroCajas;
-            padding: 20px;
+            padding: 15px;
 
-            #asig1,
-            #asig2 {
+            .asignatura {
                 background-color: $fondo-central;
+                margin-top: 20px;
 
                 a {
                     color: black;
-                    
+                    overflow-wrap: break-word;
+
                     .foto {
-                        width: 300px;
-                        height: 100px;
+                        width: 100%;
+                        height: 200px;
                         background-size: cover;
+                        margin-top: 20px;
                     }
 
                     #foto1 {
@@ -35,15 +37,32 @@
                         background-image: url("../imagenes/despliegues.jpg");
                     }
 
-                    #informacion {
-                        overflow-wrap: break-word;
-                    }
+
                 }
             }
 
+        }
+    }
+}
 
+@media (min-width: 1023px) {
+    .foto {
+        width: 100%;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+    }
 
+    #foto1 {
+        margin-bottom: 15px;
+    }
 
+    .informacion {
+        a {
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+            }
         }
     }
 }
