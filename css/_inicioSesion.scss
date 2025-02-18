@@ -1,9 +1,4 @@
-*{
-    border-radius: 15px;
-}
-body{
-    background-color: $colorFondo;
-}
+@import 'variables';
 #inicioSesion{
     position: relative;
     z-index: 2;

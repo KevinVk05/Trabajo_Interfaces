@@ -1,37 +1,19 @@
-*{
-    border-radius: 15px;
-}
-body{
-    background-color: $colorFondo;
-    
-}
+@import 'variables';
 #informacionUsuario{
-   /*display: flex;
-    //justify-content: center;
-    //align-items: center;*/
     
     #cajaExterior{
-        /*padding: 20px;*/
-        
         background-color: $fondo-central;
         width: 85%;
         height: 400px;
         border-radius: 50px;
-       /* //display: flex;
-       // justify-content: center;
-       // align-items: center;*/
+ 
         
         #cajaInterior{
-          /* // padding: 20px;*/
             width: 90%;
             height: 95%;
             border-radius: 50px;
-            background-color:$colorCajaInterior ;
+            background-color:$fondoDentroCajas ;
             #fotoPerfil{
-              /* // display: inline-block;
-               // margin-left: 50px;
-               // margin-top: 25px;*/
-                
                 background-color: black;
                 width: 75px;
                 height: 75px;

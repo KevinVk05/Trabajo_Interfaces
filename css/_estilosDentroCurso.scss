@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;700');
-
-*{
-    border-radius: 15px;
-}
-body{
-    background-color: $colorFondo;
-}
+@import 'variables';
 #interiorCursos{
     display: flex;
     justify-content: center;
@@ -25,7 +18,7 @@ body{
             width: 90%;
             height: 95%;
             border-radius: 50px;
-            background-color:$colorCajaInterior ;
+            background-color: $fondoDentroCajas ;
             align-items: center;
             justify-content: center;
             h2{
