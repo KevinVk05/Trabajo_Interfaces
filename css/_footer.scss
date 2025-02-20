@@ -22,4 +22,12 @@ footer {
         justify-content: center;
         gap: 10px;
     }
+    .textoMapa{
+        display: inline-block;
+    }
+    .mapa{
+        display: inline-block;
+        height: 200px;
+        width: 250px;
+    }
 }
