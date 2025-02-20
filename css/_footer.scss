@@ -1,4 +1,6 @@
 footer {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
     position: relative;
     z-index: 1;
     top: 65px;
@@ -22,12 +24,19 @@ footer {
         justify-content: center;
         gap: 10px;
     }
-    .textoMapa{
-        display: inline-block;
-    }
     .mapa{
-        display: inline-block;
+        display: block;
         height: 200px;
-        width: 250px;
+        width: 500px;
+        margin: auto;
+    }
+}
+@media screen and (max-width:480px){
+    footer{
+        .mapa{
+            height: 100%;
+            width: 100%;
+        
+        }
     }
 }

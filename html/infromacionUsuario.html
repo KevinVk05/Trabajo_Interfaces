@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuario</title>
     <link href="../css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -16,20 +18,21 @@
         </div>
     </header>
     <img src="../imagenes/Logo 1.jpg" class="jacin">
-    
+
     <!--#092635-->
-    <main class="grid-container" id="informacionUsuario">
-        <div class="grid-x grid-padding-x"></div>
-         <!--#9EC8B9-->
-        <div class="cell small-12 small-offset-1 medium-6 large-8 large-offset-1" id="cajaExterior">
+    <main id="informacionUsuario">
+        <div class="grid-container grid-padding-y" id="cajaExterior">
+            <!--#9EC8B9-->
             <!--#E4E4E4-->
-           <div class="cell small-12 small-offset-1 medium-6 large-8 large-offset-1" id="cajaInterior">
-              
-                <div id="fotoPerfil"></div>
-                
-                <div id="info">
+            <div class="grid-container grid-padding-x" id="cajaInterior">
+
+                <div id="fotoPerfil" class="large-10 medium-12 small-10 margin-auto box">
+                    <img src="../imagenes/icons8-usuario-24.png" alt="">
+                </div>
+
+                <div id="info" class="large-12 medium-12 small-12">
                     <!--Si quieres la informacion la podemos poner en una lista y le quitamos los puntos con el list-style:none o la dejamos en parrafos-->
-                    <h3>Jacinto Benavente</h3>
+                    <h2>Jacinto Benavente</h2>
                     <p>Email de Contacto: jacintoBenavente@mail.com</p>
                     <p>Telefono: 123456789</p>
                     <p>Curso: 2ªDesarrollo de Jacintos Web</p>
@@ -40,11 +43,12 @@
                         <li>Despliegue de Jacintos Web</li>
                     </ul>
                 </div>
-                <div id="cerrarSesion">
+                <div id="cerrarSesion" class="large-12 medium-12 small-12">
                     <p><a href="index.html">Cerrar Sesión</a></p>
                     <!--Imagen de cerrar sesion-->
                 </div>
             </div>
+        </div>
         </div>
     </main>
     <footer id="idFooter">
@@ -58,23 +62,24 @@
                     Condiciones</a>
                 |
                 <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Contacto</a>
-            </nav>
-        </div>
-        <div style="margin-top: 10px;">
-            <a href="https://facebook.com" target="_blank"
-                style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Facebook</a>
-            |
-            <a href="https://twitter.com" target="_blank"
-                style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Twitter</a>
-            |
-            <a href="https://www.instagram.com" target="_blank"
-                style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Instagram</a>
+                |
+                <a href="https://facebook.com" target="_blank"
+                    style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Facebook</a>
+                |
+                <a href="https://twitter.com" target="_blank"
+                    style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Twitter</a>
+                |
+                <a href="https://www.instagram.com" target="_blank"
+                    style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Instagram</a>
 
+            </nav>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses"
+                allowfullscreen="" loading="lazy" class="mapa" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <p class="textoMapa">Ven a visitarnos</p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses" allowfullscreen="" loading="lazy" class="mapa"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
     </footer>
 </body>
+
 </html>

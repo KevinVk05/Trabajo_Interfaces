@@ -1,27 +1,41 @@
 #informacionUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     #cajaExterior{
+        margin: auto;
         background-color: $fondo-central;
-        width: 85%;
-        height: 400px;
+        width: 900px;
+        height: 450px;
         border-radius: 50px;
  
         
         #cajaInterior{
+            margin: auto;
             width: 90%;
+            margin-top: 1.5%;
             height: 95%;
             border-radius: 50px;
             background-color:$fondoDentroCajas ;
             #fotoPerfil{
-                background-color: black;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                padding-left: 85%;
                 width: 75px;
                 height: 75px;
+                img{
+                    width: 50%;
+                    height: 50%;
+                }
             }
             #info{
                 font-family: Arial, Helvetica, sans-serif;
                 margin-left: 5%;
-                h3{
-                    font-size: 25px;
+                h2{
+                    text-align: center;
+                    font-size: 30px;
                     font-weight: bold;
                 }
                 ul{
@@ -44,4 +58,20 @@
         }
     }
 
+}
+@media screen and (max-width: 480px){
+    #informacionUsuario{
+        #cajaExterior{
+            #cajaInterior{
+                #fotoPerfil{
+                    //display: block;
+                    margin: 0 auto;
+                    img{
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+    
 }

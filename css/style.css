@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 footer {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
   position: relative;
   z-index: 1;
   top: 65px;
@@ -23,20 +25,23 @@ footer .social-links {
   justify-content: center;
   gap: 10px;
 }
-footer .textoMapa {
-  display: inline-block;
-}
 footer .mapa {
-  display: inline-block;
+  display: block;
   height: 200px;
-  width: 250px;
+  width: 500px;
+  margin: auto;
 }
 
+@media screen and (max-width: 480px) {
+  footer .mapa {
+    height: 100%;
+    width: 100%;
+  }
+}
 header {
+  border-radius: 0 0 15px 15px;
   background-color: #8BBBA8;
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px 0;
 }
 header .container {
@@ -75,6 +80,28 @@ header .usuario img {
   bottom: 115px;
 }
 
+@media screen and (max-width: 480px) {
+  header .container {
+    font-size: 17px;
+  }
+  header .usuario {
+    display: none;
+  }
+  header .usuario .icono::after {
+    content: "";
+    display: block;
+    background-image: url(../imagenes/icons8-usuario-24.png);
+    width: 55px;
+    height: 55px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .jacin {
+    width: 100px;
+    height: 100px;
+    left: 25%;
+  }
+}
 #inicioSesion {
   position: relative;
   z-index: 2;
@@ -196,29 +223,45 @@ header .usuario img {
   width: 45px;
 }
 
+#informacionUsuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #informacionUsuario #cajaExterior {
+  margin: auto;
   background-color: #9EC8B9;
-  width: 85%;
-  height: 400px;
+  width: 900px;
+  height: 450px;
   border-radius: 50px;
 }
 #informacionUsuario #cajaExterior #cajaInterior {
+  margin: auto;
   width: 90%;
+  margin-top: 1.5%;
   height: 95%;
   border-radius: 50px;
   background-color: #e4e4e4;
 }
 #informacionUsuario #cajaExterior #cajaInterior #fotoPerfil {
-  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 85%;
   width: 75px;
   height: 75px;
+}
+#informacionUsuario #cajaExterior #cajaInterior #fotoPerfil img {
+  width: 50%;
+  height: 50%;
 }
 #informacionUsuario #cajaExterior #cajaInterior #info {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 5%;
 }
-#informacionUsuario #cajaExterior #cajaInterior #info h3 {
-  font-size: 25px;
+#informacionUsuario #cajaExterior #cajaInterior #info h2 {
+  text-align: center;
+  font-size: 30px;
   font-weight: bold;
 }
 #informacionUsuario #cajaExterior #cajaInterior #info ul li {
@@ -233,6 +276,14 @@ header .usuario img {
   text-decoration: none;
 }
 
+@media screen and (max-width: 480px) {
+  #informacionUsuario #cajaExterior #cajaInterior #fotoPerfil {
+    margin: 0 auto;
+  }
+  #informacionUsuario #cajaExterior #cajaInterior #fotoPerfil img {
+    margin: auto;
+  }
+}
 * {
   border-radius: 15px;
 }

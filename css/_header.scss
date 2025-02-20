@@ -1,10 +1,10 @@
+
 header {
+    border-radius: 0 0 15px 15px;
     background-color: $colorHeader;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px 0;
-
+    
     .container {
         text-align: center;
         font-size: 30px;
@@ -41,3 +41,40 @@ header {
     z-index: 1;
     bottom: 115px;
 }
+
+
+@media screen and (max-width: 480px){
+    header{
+        
+        .container{
+            font-size: 17px;
+           
+        }
+        .usuario{
+            display: none;
+            .icono{
+                
+                &::after{
+                    content: "";
+                    display: block;
+                    background-image: url(../imagenes/icons8-usuario-24.png);
+                    width: 55px;
+                    height: 55px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+
+                   
+                }
+            }
+
+        }
+    }
+    .jacin{
+        width: 100px;
+        height: 100px;
+        left: 25%;
+        
+    }
+    
+ }
+
