@@ -1,5 +1,3 @@
-@import 'variables';
-
 #interiorCursos {
     display: flex;
     justify-content: center;
@@ -9,7 +7,7 @@
         padding: 20px;
         background-color: $fondo-central;
         width: 85%;
-        height: 600px;
+        height: 700px;
         border-radius: 50px;
 
         #cajaInterior {
@@ -28,14 +26,18 @@
 
             .unidad {
                 border: 1px solid black;
-                margin-top: 20px;
+                margin-top: 15px;
                 border-radius: 5px;
                 background-color: #A8A8A8;
+                font-family: $Inter;
+                font-size: 25px;
+                letter-spacing: 3px;
                 .circulo {
                     bottom: 0;
-                    height: 25px;
-                    width: 25px;
+                    height: 45px;
+                    width: 45px;
                 }
+                
             }
         }
     }
