@@ -1,15 +1,16 @@
-@import 'variables';
-#interiorCursos{
+#interiorCursos {
     display: flex;
     justify-content: center;
     align-items: center;
-    #cajaExterior{
+
+    #cajaExterior {
         padding: 20px;
         background-color: $fondo-central;
         width: 85%;
-        height: 400px;
+        height: 700px;
         border-radius: 50px;
-        #cajaInterior{
+
+        #cajaInterior {
             padding: 20px;
             width: 90%;
             height: 95%;
@@ -17,9 +18,26 @@
             background-color: $fondoDentroCajas ;
             margin: auto;
             text-align: center;
-            h2{
-                font-family:'Inknut Antikia',serif;
 
+            .TituloCurso {
+                font-family: $Inknut, serif;
+                font-size: 30px;
+            }
+
+            .unidad {
+                border: 1px solid black;
+                margin-top: 15px;
+                border-radius: 5px;
+                background-color: #A8A8A8;
+                font-family: $Inter;
+                font-size: 25px;
+                letter-spacing: 3px;
+                .circulo {
+                    bottom: 0;
+                    height: 45px;
+                    width: 45px;
+                }
+                
             }
         }
     }
