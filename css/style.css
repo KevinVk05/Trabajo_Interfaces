@@ -156,9 +156,6 @@ img {
   width: 85%;
   height: 400px;
   border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #interiorCursos #cajaExterior #cajaInterior {
   padding: 20px;
@@ -166,8 +163,8 @@ img {
   height: 95%;
   border-radius: 50px;
   background-color: #e4e4e4;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  text-align: center;
 }
 #interiorCursos #cajaExterior #cajaInterior h2 {
   font-family: "Inknut Antikia", serif;
