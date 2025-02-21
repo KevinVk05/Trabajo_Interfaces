@@ -1,0 +1,34 @@
+#unidad {
+    #cajaExterior {
+        height: auto;
+        margin: auto;
+        width: 70%;
+        background-color: $fondo-central;
+        padding: 50px;
+
+        #cajaInterior {
+            margin: auto;
+            height: 100%;
+            background-color: $fondoDentroCajas;
+            padding: 15px;
+            text-align: center;
+
+            hr {
+                border: 1px rgb(0, 0, 0) dashed;
+            }
+
+            #imagen {
+                .foto {
+                    width: 100%;
+                    height: 250px;
+                    background-size: cover;
+                    margin-top: 20px;
+                }
+
+                #fotoUnidad {
+                    background-image: url("../imagenes/mer.jpg");
+                }
+            }
+        }
+    }
+}

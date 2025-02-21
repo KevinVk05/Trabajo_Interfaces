@@ -89,16 +89,8 @@ header .logo .jacin {
     width: 55px;
     height: 55px;
   }
-  header .logo .jacin {
-    width: 150px;
-    height: 150px;
-    left: 100%;
-  }
 }
 #inicioSesion {
-  position: relative;
-  z-index: 2;
-  bottom: 100px;
   background-color: #9EC8B9;
   width: 55%;
   height: 400px;
@@ -214,6 +206,33 @@ header .logo .jacin {
   bottom: 0;
   height: 45px;
   width: 45px;
+}
+
+#unidad #cajaExterior {
+  height: auto;
+  margin: auto;
+  width: 70%;
+  background-color: #9EC8B9;
+  padding: 50px;
+}
+#unidad #cajaExterior #cajaInterior {
+  margin: auto;
+  height: 100%;
+  background-color: #e4e4e4;
+  padding: 15px;
+  text-align: center;
+}
+#unidad #cajaExterior #cajaInterior hr {
+  border: 1px rgb(0, 0, 0) dashed;
+}
+#unidad #cajaExterior #cajaInterior #imagen .foto {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  margin-top: 20px;
+}
+#unidad #cajaExterior #cajaInterior #imagen #fotoUnidad {
+  background-image: url("../imagenes/mer.jpg");
 }
 
 #informacionUsuario {
