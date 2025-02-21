@@ -259,6 +259,7 @@ header .logo .jacin {
 }
 #informacionUsuario #cajaExterior #cajaInterior #info ul li {
   color: blue;
+  text-decoration: none;
 }
 #informacionUsuario #cajaExterior #cajaInterior #cerrarSesion {
   text-align: right;
