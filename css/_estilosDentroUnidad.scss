@@ -11,7 +11,10 @@
             height: 100%;
             background-color: $fondoDentroCajas;
             padding: 15px;
-            text-align: center;
+
+            h2 {
+                text-align: center;
+            }
 
             hr {
                 border: 1px rgb(0, 0, 0) dashed;
@@ -20,13 +23,38 @@
             #imagen {
                 .foto {
                     width: 100%;
-                    height: 250px;
+                    height: 300px;
                     background-size: cover;
                     margin-top: 20px;
                 }
 
                 #fotoUnidad {
                     background-image: url("../imagenes/mer.jpg");
+                }
+            }
+
+            .logoEnlaces {
+                width: 30px;
+                height: 30px;
+            }
+
+            #archivo,
+            #links {
+                a {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 17px;
+                    font-family: $Inknut;
+                    margin-left: 25px;
+                }
+            }
+            #video{
+                
+                iframe{
+                    display: block;
+                    margin: auto;
+                    width: 50%;
+                    height: 350px;
                 }
             }
         }
