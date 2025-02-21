@@ -51,20 +51,11 @@ header {
            
         }
         .usuario{
-            display: none;
-            .icono{
-                
-                &::after{
-                    content: "";
-                    display: block;
-                    background-image: url(../imagenes/icons8-usuario-24.png);
-                    width: 55px;
-                    height: 55px;
-                    background-size: contain;
-                    background-repeat: no-repeat;
 
-                   
-                }
+            img{
+                
+                width: 55px;
+                height: 55px;
             }
 
         }
