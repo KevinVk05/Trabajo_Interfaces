@@ -48,3 +48,42 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    #interiorCursos {
+
+        #cajaExterior {
+            height: 500px;
+            #cajaInterior {
+
+                .TituloCurso {
+                    font-family: $Inknut, serif;
+                    font-size: 20px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    .unidad {
+                        border: 1px solid black;
+                        margin-top: 15px;
+                        border-radius: 5px;
+                        background-color: $colorHeaderFooter;
+                        font-family: $Inter;
+                        font-size: 15px;
+                        letter-spacing: 3px;
+
+                        .circulo {
+                            bottom: 0;
+                            height: 30px;
+                            width: 30px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -211,6 +211,33 @@ header .logo .jacin {
   width: 45px;
 }
 
+@media screen and (max-width: 480px) {
+  #interiorCursos #cajaExterior {
+    height: 500px;
+  }
+  #interiorCursos #cajaExterior #cajaInterior .TituloCurso {
+    font-family: "Inknut Antiqua", serif;
+    font-size: 20px;
+  }
+  #interiorCursos #cajaExterior #cajaInterior a {
+    text-decoration: none;
+    color: black;
+  }
+  #interiorCursos #cajaExterior #cajaInterior a .unidad {
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #8BBBA8;
+    font-family: "Inter";
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  #interiorCursos #cajaExterior #cajaInterior a .unidad .circulo {
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+  }
+}
 #unidad #cajaExterior {
   height: auto;
   margin: auto;
@@ -258,6 +285,34 @@ header .logo .jacin {
   height: 350px;
 }
 
+@media screen and (max-width: 480px) {
+  #unidad #cajaExterior #cajaInterior hr {
+    display: none;
+  }
+  #unidad #cajaExterior #cajaInterior #imagen .foto {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  #unidad #cajaExterior #cajaInterior #imagen #fotoUnidad {
+    background-image: url("../imagenes/mer.jpg");
+  }
+  #unidad #cajaExterior #cajaInterior .logoEnlaces {
+    width: 20px;
+    height: 20px;
+  }
+  #unidad #cajaExterior #cajaInterior #archivo a,
+  #unidad #cajaExterior #cajaInterior #links a {
+    font-size: 12px;
+  }
+  #unidad #cajaExterior #cajaInterior #video, #unidad #cajaExterior #cajaInterior #archivo, #unidad #cajaExterior #cajaInterior #links {
+    background-color: #8BBBA8;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+}
 #informacionUsuario {
   display: flex;
   justify-content: center;
