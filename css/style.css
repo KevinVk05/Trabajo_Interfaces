@@ -39,18 +39,19 @@ footer .mapa {
   }
 }
 header {
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px;
   background-color: #8BBBA8;
   display: flex;
   padding: 20px 0;
+  margin-bottom: 100px;
 }
-header .container {
+header .contenedor {
   text-align: center;
   font-size: 30px;
   font-family: "Irish Grover", sans-serif;
   letter-spacing: 10px;
   width: 100%;
-  height: 150px;
+  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
@@ -68,8 +69,7 @@ header .usuario img {
   align-items: center;
   justify-content: center;
 }
-
-.jacin {
+header .logo .jacin {
   width: 233px;
   height: 216px;
   -o-object-fit: cover;
@@ -77,29 +77,22 @@ header .usuario img {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  bottom: 115px;
+  top: 90px;
+  left: 5px;
 }
 
 @media screen and (max-width: 480px) {
-  header .container {
+  header .contenedor {
     font-size: 17px;
   }
-  header .usuario {
-    display: none;
-  }
-  header .usuario .icono::after {
-    content: "";
-    display: block;
-    background-image: url(../imagenes/icons8-usuario-24.png);
+  header .usuario img {
     width: 55px;
     height: 55px;
-    background-size: contain;
-    background-repeat: no-repeat;
   }
-  .jacin {
-    width: 100px;
-    height: 100px;
-    left: 25%;
+  header .logo .jacin {
+    width: 150px;
+    height: 150px;
+    left: 100%;
   }
 }
 #inicioSesion {
