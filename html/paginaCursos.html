@@ -15,6 +15,9 @@
 </head>
 
 <body>
+    <audio id="bienvenido" autoplay>
+        <source src="../audios/bienvenido.ogg" type="audio/ogg">
+    </audio>
     <header>
         <div class="logo">
             <img src="../imagenes/Logo 1.jpg" class="jacin">
@@ -29,14 +32,12 @@
     </header>
 
     <!-- Main Content (Cursos) -->
-    <audio autoplay>
-        <source src="../audios/bienvenido.ogg" type="audio/ogg">
-    </audio>
+    
     <main id="cursos">
         
         <div id="cajaExterior" class="grid-container">
             <div id="cajaInterior" class="grid-x grid-padding-x">
-
+                <button onclick="document.getElementById('bienvenido').play()">Bienvenido</button>
                 <div class="asignatura cell medium-12">
                     <div class="grid-x grid-padding-x align-middle">
                         <div class="cell large-8 medium-12 small-12">
