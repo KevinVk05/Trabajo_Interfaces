@@ -24,20 +24,26 @@
                 font-size: 30px;
             }
 
-            .unidad {
-                border: 1px solid black;
-                margin-top: 15px;
-                border-radius: 5px;
-                background-color: #A8A8A8;
-                font-family: $Inter;
-                font-size: 25px;
-                letter-spacing: 3px;
-                .circulo {
-                    bottom: 0;
-                    height: 45px;
-                    width: 45px;
+            a {
+                text-decoration: none;
+                color: black;
+
+                .unidad {
+                    border: 1px solid black;
+                    margin-top: 15px;
+                    border-radius: 5px;
+                    background-color: #A8A8A8;
+                    font-family: $Inter;
+                    font-size: 25px;
+                    letter-spacing: 3px;
+
+                    .circulo {
+                        bottom: 0;
+                        height: 45px;
+                        width: 45px;
+                    }
+
                 }
-                
             }
         }
     }

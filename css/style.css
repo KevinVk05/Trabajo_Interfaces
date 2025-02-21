@@ -192,7 +192,11 @@ header .logo .jacin {
   font-family: "Inknut Antiqua", serif;
   font-size: 30px;
 }
-#interiorCursos #cajaExterior #cajaInterior .unidad {
+#interiorCursos #cajaExterior #cajaInterior a {
+  text-decoration: none;
+  color: black;
+}
+#interiorCursos #cajaExterior #cajaInterior a .unidad {
   border: 1px solid black;
   margin-top: 15px;
   border-radius: 5px;
@@ -201,7 +205,7 @@ header .logo .jacin {
   font-size: 25px;
   letter-spacing: 3px;
 }
-#interiorCursos #cajaExterior #cajaInterior .unidad .circulo {
+#interiorCursos #cajaExterior #cajaInterior a .unidad .circulo {
   bottom: 0;
   height: 45px;
   width: 45px;
@@ -295,7 +299,7 @@ header .logo .jacin {
   font-size: 30px;
   font-weight: bold;
 }
-#informacionUsuario #cajaExterior #cajaInterior #info ul a li {
+#informacionUsuario #cajaExterior #cajaInterior #info ul li a {
   color: blue;
   text-decoration: none;
 }
