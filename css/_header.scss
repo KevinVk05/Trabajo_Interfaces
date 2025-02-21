@@ -1,21 +1,20 @@
-
 header {
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
     background-color: $colorHeader;
     display: flex;
     padding: 20px 0;
-    
-    .container {
+
+    .contenedor {
         text-align: center;
         font-size: 30px;
         font-family: $Irish, sans-serif;
         letter-spacing: 10px;
         width: 100%;
-        height: 150px;
+        height: 100px;
         object-fit: cover;
         border-radius: 50%;
         padding: 10px;
-        
+
     }
 
     .usuario {
@@ -24,57 +23,60 @@ header {
         width: 100px;
         height: 100px;
         padding-right: 15px;
-        img{
+
+        img {
             display: flex;
             align-items: center;
             justify-content: center;
         }
     }
-}
 
-.jacin {
-    width: 233px;
-    height: 216px;
-    object-fit: cover;
-    border-radius: 50%;
-    position: relative;
-    z-index: 1;
-    bottom: 115px;
-}
-
-
-@media screen and (max-width: 480px){
-    header{
-        
-        .container{
-            font-size: 17px;
-           
+    .logo {
+        .jacin {
+            width: 233px;
+            height: 216px;
+            object-fit: cover;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            top: 90px;
+            left: 5px;
         }
-        .usuario{
-            display: none;
-            .icono{
-                
-                &::after{
-                    content: "";
-                    display: block;
-                    background-image: url(../imagenes/icons8-usuario-24.png);
-                    width: 55px;
-                    height: 55px;
-                    background-size: contain;
-                    background-repeat: no-repeat;
+    }
 
-                   
-                }
+    margin-bottom: 100px;
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    header {
+
+        .contenedor {
+            font-size: 17px;
+        }
+
+        .usuario {
+            img {
+                width: 55px;
+                height: 55px;
             }
 
         }
-    }
-    .jacin{
-        width: 100px;
-        height: 100px;
-        left: 25%;
-        
-    }
-    
- }
 
+        .logo {
+            .jacin {
+                width: 150px;
+                height: 150px;
+                left: 100%;
+
+            }
+        }
+    }
+
+
+
+
+}
