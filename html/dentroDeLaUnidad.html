@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BASE DE JACINTOS-UD1</title>
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../estilos/estilos.css" rel="stylesheet">
+    <!-- Enlazar el CSS de Foundation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+
+    <!-- Enlazar el archivo JS de Foundation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" defer></script>
 </head>
 
 <body>
@@ -18,40 +24,42 @@
                 <h1>JACIN AULA</h1>
             </div>
             <div class="usuario cell small-12 large-4 ">
-                <a href="infromacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
+                <a href="InformacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
                         alt="usuario"></a>
             </div>
         </div>
     </header>
     <!--#092635-->
-    <main id="unidad">
-        <!--#9EC8B9-->
-        <div id="cajaExterior">
-            <!--#E4E4E4-->
-            <div id="cajaInterior" class="grid-container">
-                <!--Inknut Antiqua tipo de letra-->
-                <h2>BASE DE JACINTOS</h2>
-                
-                <div id="imagen" class="large-12 medium-12 small-12">
-                    <div id="fotoUnidad" class="foto"></div>
-                </div>
-                <hr>
-                <div id="archivo">
-                    <img src="../imagenes/document.png" class="logoEnlaces">
-                    <a href="https://cursos.aiu.edu/Base%20de%20Datos/pdf/Tema%203.pdf" target="_blank">ModeloEntidadRelacion.pdf</a>
-                </div>
-                <hr>
-                <div id="links">
-                    <img src="../imagenes/link.png" class="logoEnlaces">
-                    <a href="https://users.dcc.uchile.cl/~mnmonsal/BD/guias/g-modeloER.pdf" target="_blank">Link para pagina de ejercicios</a>
-                </div>
-                <hr>
-                <div id="video">
-                    <iframe src="https://www.youtube.com/embed/yPvTWjwwxD8?si=EFN4iVE64tbvZfM2"></iframe>
-                    <iframe src="../videos/sql.mp4"></iframe>
+    <main class="grid-container grid-x align-center align-middle full">
+        <div class="grid-x grid-padding-x align-middle " id="cajaExterior">
+            <div class="large-12 medium-12 small-12 cell " id="cajaInterior">
+                <div class="large-12 medium-12 small-12 cell curso grid-x temas">
+                    <h2 class="cell text-center">Base de Jacintos</h2>
+                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
+                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell">
+                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.1 MODELO ENTIDAD-RELACIÓN </a></h3>
+                    </div>
+                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
+                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell ">
+                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.2 CREACIÓN DE TABLAS </a></h3>
+                    </div>
+                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
+                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell">
+                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.3 INSERCCIONES EN TABLAS </a></h3>
+                    </div>
+                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
+                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell">
+                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.4 CONSULTAS </a></h3>
+                    </div>
+                    <div class="button-group seeTema text-center align-center">
+                        <a href="paginaCursos.html" class="button"><=Volver a cursos</a>
+                    </div>
+                    <div class="button-group seeTema text-center align-center">
+                        <a href="#" class="button">Ver más temas</a>
+                    </div>
+                   
                 </div>
             </div>
-        </div>
     </main>
     <footer class="grid-container full">
         <div class="grid-x grid-padding-x align-middle text-center">

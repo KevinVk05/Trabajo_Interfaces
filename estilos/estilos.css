@@ -140,8 +140,35 @@ main .asignatura a .infoCurso p {
 main {
   height: 715px;
 }
+main .temas .tema {
+  border: 1px black solid;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: #A8A8A8;
+}
+main .temas .tema .foto,
+main .temas .tema h3 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+main .temas .tema .foto {
+  height: 25px;
+  width: 25px;
+}
+main .temas .tema h3 a {
+  color: black;
+  font-size: 1em;
+}
+main .temas .seeTema {
+  margin-top: 25px;
+}
+
 * {
   border-radius: 15px;
+}
+
+header, main, footer {
+  border-radius: 0px;
 }
 
 main #cajaExterior {
