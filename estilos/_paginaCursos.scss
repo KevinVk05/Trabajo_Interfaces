@@ -1,56 +1,41 @@
 main {
     height: 790px;
 
-    #cajaExterior {
-        width: 50%;
+    .asignatura {
+        height: 45%;
         background-color: $colorHeaderFooter;
-        border-radius: 15px;
-        height: 85%;
+        padding: 10px;
+        margin-top: 25px;
 
-        #cajaInterior {
-            width: 80%;
-            background-color: $fondoDentroCajas;
-            border-radius: 15px;
-            margin: auto;
-            font-family: $texto;
-            height: 95%;
 
-            .asignatura {
-                height: 45%;
-                background-color: $colorHeaderFooter;
-                padding: 10px;
-                margin-top: 25px;
+        .fotoCurso {
+            background-repeat: no-repeat;
+            height: 50%;
+            background-size: 65%;
+        }
 
-                
-                    .fotoCurso {
-                        background-repeat: no-repeat;
-                        height: 50%;
-                        background-size: 65%;
-                    }
+        #bases {
+            background-image: url(../imagenes/bases.jpeg);
+        }
 
-                    #bases {
-                        background-image: url(../imagenes/bases.jpeg);
-                    }
+        #despliegue {
+            background-image: url(../imagenes/despliegues.jpg);
+        }
 
-                    #despliegue {
-                        background-image: url(../imagenes/despliegues.jpg);
-                    }
-                    a {
-                    .infoCurso {
-                        color: black;
+        a {
+            .infoCurso {
+                color: black;
 
-                        h2 {
-                            font-size: 1.5em;
-                            font-weight: 700;
-                        }
-
-                        p {
-                            font-size: 1.2em;
-                        }
-                    }
+                h2 {
+                    font-size: 1.5em;
+                    font-weight: 700;
                 }
 
+                p {
+                    font-size: 1.2em;
+                }
             }
         }
+
     }
 }

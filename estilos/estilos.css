@@ -109,10 +109,44 @@ main #cajaExterior #cajaInterior .encabezado .nombre h2 {
 main {
   height: 790px;
 }
+main .asignatura {
+  height: 45%;
+  background-color: #8BBBA8;
+  padding: 10px;
+  margin-top: 25px;
+}
+main .asignatura .fotoCurso {
+  background-repeat: no-repeat;
+  height: 50%;
+  background-size: 65%;
+}
+main .asignatura #bases {
+  background-image: url(../imagenes/bases.jpeg);
+}
+main .asignatura #despliegue {
+  background-image: url(../imagenes/despliegues.jpg);
+}
+main .asignatura a .infoCurso {
+  color: black;
+}
+main .asignatura a .infoCurso h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+main .asignatura a .infoCurso p {
+  font-size: 1.2em;
+}
+
+main {
+  height: 715px;
+}
+* {
+  border-radius: 15px;
+}
+
 main #cajaExterior {
   width: 50%;
   background-color: #8BBBA8;
-  border-radius: 15px;
   height: 85%;
 }
 main #cajaExterior #cajaInterior {
@@ -122,35 +156,4 @@ main #cajaExterior #cajaInterior {
   margin: auto;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 95%;
-}
-main #cajaExterior #cajaInterior .asignatura {
-  height: 45%;
-  background-color: #8BBBA8;
-  padding: 10px;
-  margin-top: 25px;
-}
-main #cajaExterior #cajaInterior .asignatura .fotoCurso {
-  background-repeat: no-repeat;
-  height: 50%;
-  background-size: 65%;
-}
-main #cajaExterior #cajaInterior .asignatura #bases {
-  background-image: url(../imagenes/bases.jpeg);
-}
-main #cajaExterior #cajaInterior .asignatura #despliegue {
-  background-image: url(../imagenes/despliegues.jpg);
-}
-main #cajaExterior #cajaInterior .asignatura a .infoCurso {
-  color: black;
-}
-main #cajaExterior #cajaInterior .asignatura a .infoCurso h2 {
-  font-size: 1.5em;
-  font-weight: 700;
-}
-main #cajaExterior #cajaInterior .asignatura a .infoCurso p {
-  font-size: 1.2em;
-}
-
-* {
-  border-radius: 15px;
 }/*# sourceMappingURL=estilos.css.map */

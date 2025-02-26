@@ -6,6 +6,23 @@
 @import "paginaCursos";
 @import "dentroCurso";
 
-*{
+* {
     border-radius: 15px;
+}
+
+main {
+    #cajaExterior {
+        width: 50%;
+        background-color: $colorHeaderFooter;
+        height: 85%;
+
+        #cajaInterior {
+            width: 80%;
+            background-color: $fondoDentroCajas;
+            border-radius: 15px;
+            margin: auto;
+            font-family: $texto;
+            height: 95%;
+        }
+    }
 }
