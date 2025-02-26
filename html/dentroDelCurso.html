@@ -5,87 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso-BASE DE JACINTOS</title>
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../estilos/estilos.css" rel="stylesheet">
+    <!-- Enlazar el CSS de Foundation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+
+    <!-- Enlazar el archivo JS de Foundation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="../imagenes/Logo 1.jpg" class="jacin">
-        </div>
-        <div class="contenedor">
-            <h1>JACIN AULA</h1>
-        </div>
-        <div class="usuario">
-            <a href="infromacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
-                    alt="usuario"></a>
+    <header class="grid-container full">
+        <div class="grid-x grid-padding-x caja">
+            <div class="logo cell small-12 large-4">
+                <img src="../imagenes/Logo 1.jpg" class="jacin">
+            </div>
+            <div class="titulo cell small-12 large-4 text-center">
+                <h1>JACIN AULA</h1>
+            </div>
+            <div class="usuario cell small-12 large-4 ">
+                <a href="InformacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
+                        alt="usuario"></a>
+            </div>
         </div>
     </header>
-    <!--#092635-->
-    <main id="interiorCursos">
-        <!--#9EC8B9-->
-        <div id="cajaExterior" class="grid-container grid-padding-y">
-            <!--#E4E4E4-->
-            <div id="cajaInterior" class="grid-container grid-padding-x">
-                <!--Inknut Antiqua tipo de letra-->
-                <h2 class="TituloCurso large-12 medium-12 small-12">BASE DE JACINTOS</h2>
-                <!--#A8A8A8-->
-                <a href="dentroDeLaUnidad.html">
-                    <div class=" unidad large-12 medium-12 small-12">
-                        <!--Añadir la imagen del  +  -->
-                        <h3><img src="../imagenes/add-circle-outline.png" class="circulo"> UD1. MODELO ENTIDAD</h3>
-                    </div>
-                </a>
-                <a href="dentroDeLaUnidad.html">
-                    <div class=" unidad large-12 medium-12 small-12">
-                        <!--Añadir la imagen del  +  -->
-                        <h3><img src="../imagenes/add-circle-outline.png" class="circulo">UD2.CREACON DE TABLAS</h3>
-                    </div>
-                </a>
-                <a href="dentroDeLaUnidad.html">
-                    <div class=" unidad large-12 medium-12 small-12">
-                        <!--Añadir la imagen del  +  -->
-                        <h3><img src="../imagenes/add-circle-outline.png" class="circulo">UD3. INSERCCIONES EN TABLAS
-                        </h3>
-                    </div>
-                </a>
-                <a href="dentroDeLaUnidad.html">
-                    <div class=" unidad large-12 medium-12 small-12">
-                        <!--Añadir la imagen del  +  -->
-                        <h3><img src="../imagenes/add-circle-outline.png" class="circulo">UD4. CONSULTAS</h3>
-                    </div>
-                </a>
+    <main class="grid-container grid-x align-center align-middle full">
+        <div class="grid-x grid-padding-x align-middle " id="cajaExterior">
+            <div class="large-12 medium-12 small-12 cell " id="cajaInterior">
+                <div class="large-12 medium-12 small-12 cell curso grid-x">
+                  <h2 class="cell text-center">Base de Jacintos</h2>
+                        
+
             </div>
         </div>
     </main>
-    <footer id="idFooter">
-        <div>
-            <p id="copy">&copy; 2024 Todos los derechos reservados.</p>
-            <nav>
-                <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Política de
-                    Privacidad</a>
-                |
-                <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Términos y
-                    Condiciones</a>
-                |
-                <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Contacto</a>
-                |
-                <a href="https://facebook.com" target="_blank"
-                    style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Facebook</a>
-                |
-                <a href="https://twitter.com" target="_blank"
-                    style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Twitter</a>
-                |
-                <a href="https://www.instagram.com" target="_blank"
-                    style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Instagram</a>
+    <footer class="grid-container full">
+        <div class="grid-x grid-padding-x align-middle text-center">
+            <!-- Sección de derechos de autor -->
+            <div class="cell small-12 large-4">
+                <p id="copy">&copy; 2024 Todos los derechos reservados.</p>
+            </div>
 
-            </nav>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses"
-                allowfullscreen="" loading="lazy" class="mapa" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Sección de enlaces -->
+            <div class="cell small-12 large-4 text-center large-text-left">
+                <nav>
+                    <a href="#">Política de Privacidad</a> |
+                    <a href="#">Términos y Condiciones</a> |
+                    <a href="#">Contacto</a> |
+                    <a href="https://facebook.com" target="_blank">Facebook</a> |
+                    <a href="https://twitter.com" target="_blank">Twitter</a> |
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </nav>
+            </div>
+
+            <!-- Sección del mapa -->
+            <div class="cell small-12 large-4 text-center large-text-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses"
+                    allowfullscreen loading="lazy" class="mapa" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
-        
-
     </footer>
 </body>
 

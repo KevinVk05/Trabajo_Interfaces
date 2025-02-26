@@ -9,16 +9,18 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="../imagenes/Logo 1.jpg" class="jacin">
-        </div>
-        <div class="contenedor">
-            <h1>JACIN AULA</h1>
-        </div>
-        <div class="usuario">
-            <a href="infromacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
-                    alt="usuario"></a>
+    <header class="grid-container full">
+        <div class="grid-x grid-padding-x caja">
+            <div class="logo cell small-12 large-4">
+                <img src="../imagenes/Logo 1.jpg" class="jacin">
+            </div>
+            <div class="titulo cell small-12 large-4 text-center">
+                <h1>JACIN AULA</h1>
+            </div>
+            <div class="usuario cell small-12 large-4 ">
+                <a href="infromacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
+                        alt="usuario"></a>
+            </div>
         </div>
     </header>
     <!--#092635-->
@@ -51,36 +53,38 @@
             </div>
         </div>
     </main>
-    <footer id="idFooter">
-        <footer id="idFooter">
-            <div>
+    <footer class="grid-container full">
+        <div class="grid-x grid-padding-x align-middle text-center">
+            <!-- Sección de derechos de autor -->
+            <div class="cell small-12 large-4">
                 <p id="copy">&copy; 2024 Todos los derechos reservados.</p>
-                <nav>
-                    <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Política de
-                        Privacidad</a>
-                    |
-                    <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Términos y
-                        Condiciones</a>
-                    |
-                    <a href="#" style="color: #ecf0f1; text-decoration: none; margin: 0 10px;">Contacto</a>
-                    |
-                    <a href="https://facebook.com" target="_blank"
-                        style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Facebook</a>
-                    |
-                    <a href="https://twitter.com" target="_blank"
-                        style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Twitter</a>
-                    |
-                    <a href="https://www.instagram.com" target="_blank"
-                        style="color: #ecf0f1; text-decoration: none; margin: 0 5px;">Instagram</a>
-    
-                </nav>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses"
-                    allowfullscreen="" loading="lazy" class="mapa" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            
     
-        </footer>
+            <!-- Sección de enlaces -->
+            <div class="cell small-12 large-4 text-center large-text-left">
+                <nav>
+                    <a href="#">Política de Privacidad</a> |
+                    <a href="#">Términos y Condiciones</a> |
+                    <a href="#">Contacto</a> |
+                    <a href="https://facebook.com" target="_blank">Facebook</a> |
+                    <a href="https://twitter.com" target="_blank">Twitter</a> |
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </nav>
+            </div>
+    
+            <!-- Sección del mapa -->
+            <div class="cell small-12 large-4 text-center large-text-right">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses"
+                    allowfullscreen 
+                    loading="lazy" 
+                    class="mapa"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

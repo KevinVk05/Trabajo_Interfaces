@@ -1,7 +1,11 @@
 @import 'variables';
 @import 'header';
+@import 'footer';
 @import 'inicio';
 @import 'infoUsuario';
-@import 'footer';
+@import "paginaCursos";
+@import "dentroCurso";
 
-
+*{
+    border-radius: 15px;
+}
