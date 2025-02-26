@@ -1,0 +1,31 @@
+main{
+    background-color: $colorFondo;
+    height: 500px;
+    form{
+        background-color: $fondo-central;
+        height: 80%;
+        width: 40%;
+        border-radius: 15px;
+        div{
+            
+            margin: auto;
+            label{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                input{
+                    border-radius: 25px;
+                }
+            }
+            
+        }
+        .button-group{
+            justify-content: center;
+            .success{
+                width: 30%;
+                background-color: $boton;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+    }
+   
+}

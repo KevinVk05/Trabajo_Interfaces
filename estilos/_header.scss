@@ -1,0 +1,77 @@
+
+header {
+    background-color: $colorHeaderFooter;
+    height: 100px;
+    width: 100%;
+
+    .caja {
+        .logo.small-12{
+            height: 85%;
+            width: 85%;
+
+            .jacin {
+                
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+
+        .logo.large-4 {
+            height: 20%;
+            width: 20%;
+
+            .jacin {
+                height: 125px;
+                width: 125px;
+                border-radius: 50%;
+
+            }
+        }    
+                   
+
+
+
+        .titulo.large-4 {
+            width: 70%;
+            height: 100%;
+            h1 {
+                font-size: 75px;
+                font-family: $Irish, sans-serif;
+                letter-spacing: 10px;
+                text-align: center;
+            }
+
+
+        }
+
+        .titulo.small-2 {
+            font-size: 30px;
+            height: 25px;
+        }
+
+
+
+        .usuario.large-4 {
+            width: 10%;
+            height: 100%;
+           a img{
+                width: 50px;
+                height: 50px;
+                align-items: end;
+                justify-content: end;
+            }
+            
+
+        }
+
+    }
+}
+
+
+
+
+
