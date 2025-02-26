@@ -1,16 +1,14 @@
-
 header {
     background-color: $colorHeaderFooter;
-    height: 100px;
+    height: 110px;
     width: 100%;
 
     .caja {
-        .logo.small-12{
+        .logo.small-12 {
             height: 85%;
             width: 85%;
 
             .jacin {
-                
                 height: 50px;
                 width: 50px;
                 border-radius: 50%;
@@ -28,50 +26,37 @@ header {
                 height: 125px;
                 width: 125px;
                 border-radius: 50%;
-
             }
-        }    
-                   
+        }
 
+        .titulo {
+            text-align: center;
 
-
-        .titulo.large-4 {
-            width: 70%;
-            height: 100%;
             h1 {
-                font-size: 75px;
                 font-family: $Irish, sans-serif;
                 letter-spacing: 10px;
                 text-align: center;
+                
+                // Evitar que el título se divida en más de una línea
+                white-space: nowrap; 
+
+                // Usar font-size con 'vw' para tamaños responsivos
+                font-size: calc(10px + 5vw); 
+
+                // Ajustar el tamaño máximo de la fuente para pantallas grandes
             }
-
-
         }
-
-        .titulo.small-2 {
-            font-size: 30px;
-            height: 25px;
-        }
-
-
 
         .usuario.large-4 {
             width: 10%;
             height: 100%;
-           a img{
+
+            a img {
                 width: 50px;
                 height: 50px;
                 align-items: end;
                 justify-content: end;
             }
-            
-
         }
-
     }
 }
-
-
-
-
-

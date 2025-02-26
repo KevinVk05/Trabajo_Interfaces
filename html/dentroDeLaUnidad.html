@@ -17,59 +17,58 @@
 <body>
     <header class="grid-container full">
         <div class="grid-x grid-padding-x caja">
-            <div class="logo cell small-12 large-4">
+            <div class="logo cell small-8 medium-8 large-4">
                 <img src="../imagenes/Logo 1.jpg" class="jacin">
             </div>
-            <div class="titulo cell small-12 large-4 text-center">
+            <div class="titulo text-center cell small-8 medium-8 large-8">
                 <h1>JACIN AULA</h1>
             </div>
-            <div class="usuario cell small-12 large-4 ">
+
+            <div class="usuario cell small-12 medium-8 large-4 ">
                 <a href="InformacionUsuario.html"><img src="../imagenes/icons8-usuario-96.png" class="icono"
                         alt="usuario"></a>
             </div>
         </div>
     </header>
-    <!--#092635-->
-    <main class="grid-container grid-x align-center align-middle full">
+
+    <main class="grid-container grid-x align-center align-middle full unidades">
         <div class="grid-x grid-padding-x align-middle " id="cajaExterior">
             <div class="large-12 medium-12 small-12 cell " id="cajaInterior">
-                <div class="large-12 medium-12 small-12 cell curso grid-x temas">
+                <div class="large-12 medium-12 small-12 cell curso grid-x unidad">
                     <h2 class="cell text-center">Base de Jacintos</h2>
-                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
-                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell">
-                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.1 MODELO ENTIDAD-RELACIÓN </a></h3>
+                    <div class="cell text-center small-12 medium-12 large-12">
+                        <img src="../imagenes/mer.jpg">
                     </div>
-                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
-                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell ">
-                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.2 CREACIÓN DE TABLAS </a></h3>
+                    <div class="cell text-left small-12 medium-12 large-12 enlace">
+                        <img src="../imagenes/document.png">
+                        <a href="https://cursos.aiu.edu/Base%20de%20Datos/pdf/Tema%203.pdf" download="tema1.pdf">ModeloEntidadRelacion.pdf</a>
                     </div>
-                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
-                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell">
-                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.3 INSERCCIONES EN TABLAS </a></h3>
+                    <div class="cell text-left small-12 medium-12 large-12 enlace">
+                        <img src="../imagenes/link.png">
+                        <a href="https://users.dcc.uchile.cl/~mnmonsal/BD/guias/g-modeloER.pdf" download="tema1.pdf">Link para pagina de ejercicios</a>
                     </div>
-                    <div class="cell large-12 medium-12 small-12 text-left tema grid-container grid-x">
-                        <img src="../imagenes/add-circle-outline.png" class="foto large-1 medium-1 small-1 cell">
-                        <h3 class="large-11 medium-11 small-11 cell"><a href="dentroDeLaUnidad.html">UD.4 CONSULTAS </a></h3>
+                    <div class="cell text-center small-12 medium-12 large-12 videos">
+                        <iframe src="https://www.youtube.com/embed/yPvTWjwwxD8?si=fBna_cyb7oxRHhp_" allowfullscreen class="yt"></iframe>
                     </div>
                     <div class="button-group seeTema text-center align-center">
-                        <a href="paginaCursos.html" class="button"><=Volver a cursos</a>
+                        <a href="dentroDelCurso.html" class="button"><=Volver a temas</a>
                     </div>
                     <div class="button-group seeTema text-center align-center">
-                        <a href="#" class="button">Ver más temas</a>
+                        <a href="#" class="button">Ver más del tema</a>
                     </div>
-                   
+
                 </div>
             </div>
     </main>
     <footer class="grid-container full">
         <div class="grid-x grid-padding-x align-middle text-center">
             <!-- Sección de derechos de autor -->
-            <div class="cell small-12 large-4">
+            <div class="cell small-12 medium-12 large-4">
                 <p id="copy">&copy; 2024 Todos los derechos reservados.</p>
             </div>
-    
+
             <!-- Sección de enlaces -->
-            <div class="cell small-12 large-4 text-center large-text-left">
+            <div class="cell small-12 medium-12 large-4 text-center large-text-left">
                 <nav>
                     <a href="#">Política de Privacidad</a> |
                     <a href="#">Términos y Condiciones</a> |
@@ -79,15 +78,12 @@
                     <a href="https://www.instagram.com" target="_blank">Instagram</a>
                 </nav>
             </div>
-    
+
             <!-- Sección del mapa -->
-            <div class="cell small-12 large-4 text-center large-text-right">
-                <iframe 
+            <div class="cell small-12 medium-12 large-4 text-center large-text-right">
+                <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.165784685416!2d-3.6536834234694675!3d40.41809015555575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f599699f1ab%3A0x83554f35d5502a11!2sIES%20Francisco%20de%20Goya!5e0!3m2!1ses!2ses!4v1740044343678!5m2!1ses!2ses"
-                    allowfullscreen 
-                    loading="lazy" 
-                    class="mapa"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    allowfullscreen loading="lazy" class="mapa" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
         </div>

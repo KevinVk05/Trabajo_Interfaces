@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 header {
   background-color: #8BBBA8;
-  height: 100px;
+  height: 110px;
   width: 100%;
 }
 header .caja .logo.small-12 {
@@ -26,19 +26,15 @@ header .caja .logo.large-4 .jacin {
   width: 125px;
   border-radius: 50%;
 }
-header .caja .titulo.large-4 {
-  width: 70%;
-  height: 100%;
+header .caja .titulo {
+  text-align: center;
 }
-header .caja .titulo.large-4 h1 {
-  font-size: 75px;
+header .caja .titulo h1 {
   font-family: "Irish Grover", sans-serif;
   letter-spacing: 10px;
   text-align: center;
-}
-header .caja .titulo.small-2 {
-  font-size: 30px;
-  height: 25px;
+  white-space: nowrap;
+  font-size: calc(10px + 5vw);
 }
 header .caja .usuario.large-4 {
   width: 10%;
@@ -57,6 +53,11 @@ footer {
   height: 155px;
 }
 
+@media (max-width: 1024px) {
+  footer {
+    height: 230px;
+  }
+}
 main {
   background-color: #092635;
   height: 710px;
@@ -86,6 +87,9 @@ main form .button-group .success {
   border-radius: 5px;
 }
 
+main {
+  height: 715px;
+}
 main #cajaExterior {
   width: 900px;
   background-color: #8BBBA8;
@@ -106,34 +110,34 @@ main #cajaExterior #cajaInterior .encabezado .nombre h2 {
   font-weight: bold;
 }
 
-main {
+.cursos {
   height: 790px;
 }
-main .asignatura {
+.cursos .asignatura {
   height: 45%;
   background-color: #8BBBA8;
   padding: 10px;
   margin-top: 25px;
 }
-main .asignatura .fotoCurso {
+.cursos .asignatura .fotoCurso {
   background-repeat: no-repeat;
   height: 50%;
   background-size: 65%;
 }
-main .asignatura #bases {
+.cursos .asignatura #bases {
   background-image: url(../imagenes/bases.jpeg);
 }
-main .asignatura #despliegue {
+.cursos .asignatura #despliegue {
   background-image: url(../imagenes/despliegues.jpg);
 }
-main .asignatura a .infoCurso {
+.cursos .asignatura a .infoCurso {
   color: black;
 }
-main .asignatura a .infoCurso h2 {
+.cursos .asignatura a .infoCurso h2 {
   font-size: 1.5em;
   font-weight: 700;
 }
-main .asignatura a .infoCurso p {
+.cursos .asignatura a .infoCurso p {
   font-size: 1.2em;
 }
 
@@ -160,6 +164,22 @@ main .temas .tema h3 a {
   font-size: 1em;
 }
 main .temas .seeTema {
+  margin-top: 25px;
+}
+
+.unidades {
+  height: 1000px;
+}
+.unidades .enlace {
+  border-top: 2px black dashed;
+  border-radius: 0;
+  margin-top: 15px;
+}
+.unidades .yt {
+  height: 100%;
+  width: 50%;
+}
+.unidades .seeTema {
   margin-top: 25px;
 }
 
